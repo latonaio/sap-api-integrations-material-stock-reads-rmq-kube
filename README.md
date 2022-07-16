@@ -10,7 +10,7 @@ sap-api-integrations-material-stock-reads-rmq-kube は、主にエッジコン�
 ・ エッジ Kubernetes （推奨）  
 ・ AION のリソース （推奨)  
 ・ OS: LinuxOS （必須）  
-・ CPU: ARM/AMD/Intel（いずれか必須） 
+・ CPU: ARM/AMD/Intel（いずれか必須）   
 ・ RabbitMQ on Kubernetes  
 ・ RabbitMQ Client  
 
@@ -135,8 +135,8 @@ func (c *SAPAPICaller) AsyncGetMaterialStock(material, plant, storageLocation, b
 
 ```
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-material-stock-reads/SAP_API_Caller/caller.go#L53",
-	"function": "sap-api-integrations-material-stock-reads/SAP_API_Caller.(*SAPAPICaller).MaterialStock",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-material-stock-reads-rmq-kube/SAP_API_Caller/caller.go#L53",
+	"function": "sap-api-integrations-material-stock-reads-rmq-kube/SAP_API_Caller.(*SAPAPICaller).MaterialStock",
 	"level": "INFO",
 	"message": [
 		{
